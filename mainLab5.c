@@ -8,21 +8,9 @@
 
 void main()
 {
+    printf("Hello!");
     while (1)
     {
-
-
-
-
-
-
-
-
-
-
-
-
-
         
     }
 }
