@@ -1,9 +1,9 @@
 CC=gcc
 CFLAGS=-c -Wall
 LDFLAGS=
-SOURCES= main.c ainfo.c
+SOURCES= storage.c vector.c mainLab5.c
 OBJECTS=$(SOURCES:.c=.o)
-EXECUTABLE=Lab4App
+EXECUTABLE= Lab5
 all: $(SOURCES) $(EXECUTABLE)
 # pull in dependency info for *existing* .o files
 -include $(OBJECTS:.o=.d)
