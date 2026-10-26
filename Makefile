@@ -1,9 +1,9 @@
 CC=gcc
 CFLAGS=-c -Wall
 LDFLAGS=
-SOURCES= storage.c vector.c mainLab5.c
+SOURCES= vector.c mainLab5.c storage.c
 OBJECTS=$(SOURCES:.c=.o)
-EXECUTABLE= Lab5
+EXECUTABLE=miniMat7
 all: $(SOURCES) $(EXECUTABLE)
 # pull in dependency info for *existing* .o files
 -include $(OBJECTS:.o=.d)

@@ -56,5 +56,5 @@ Vector cross(Vector a, Vector b)
 
 void printVector(Vector v)
 {
-    printf("%c = (%d, %d, %d)", v.name, v.x, v.y, v.z);
+    printf("%s = (%.2f, %.2f, %.2f)\n", v.name, v.x, v.y, v.z);
 }
