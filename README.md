@@ -29,6 +29,10 @@ The `-h` option shows the help message.
 - `save filename` — save vectors to a CSV file.
 - `quit` — exit.
 
+## Example
+
+Enter `a = 1 2 3`, then use `list` to display the stored vector.
+
 CSV rows use the format `name,x,y,z`. Filenames can include relative or absolute paths and do not need a `.csv` extension. Use spaces around operators; vector names are limited to 7 characters.
 
 ## Dynamic Memory
